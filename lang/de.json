@@ -1,0 +1,53 @@
+{
+  "pinfix": {
+    "title": "Pin Fixer",
+    "description": "Verhindert starke Größenänderungen von Kartenpins beim Zoomen.",
+    "enable": {
+      "name": "Aktivieren",
+      "desc": "Aktiviert Pin Fixer auf dieser Szene."
+    },
+    "pinLocker": {
+      "name": "Pins auf anderen Ebenen sperren",
+      "desc": "Verhindert das Verschieben von Pins, wenn sie nicht auf der Notizenebene sind."
+    },
+    "minScale": {
+      "name": "Minimale Größe",
+      "desc": "Die kleinste Größe für Kartenpins (maximal herausgezoomt)."
+    },
+    "maxScale": {
+      "name": "Maximale Größe",
+      "desc": "Die größte Größe für Kartenpins (maximal hereingezoomt)."
+    },
+    "zoomFloor": {
+      "name": "Zoom-Boden",
+      "desc": "Die Pin-Größe ändert sich nicht, wenn weiter herausgezoomt wird."
+    },
+    "zoomCeil": {
+      "name": "Zoom-Decke",
+      "desc": "Die Pin-Größe ändert sich nicht, wenn weiter hereingezoomt wird."
+    },
+    "hudScale": {
+      "name": "Pin HUD-Größe",
+      "desc": "Einige Module, wie Pin Cushion und POI Teleporter, fügen HUDs zu Kartenpins hinzu. Diese Einstellung passt den Skalierungsfaktor für diese HUDs an."
+    },
+    "aboveFog": {
+      "name": "Kartenpins über Nebel anzeigen",
+      "desc": "Kartenpins und Beschriftungen werden über der Nebelschicht angezeigt, einschließlich Imagefog/Simplefog-Nebelschichten."
+    },
+    "notes": {
+      "description": "Versteckt Pins unterhalb oder oberhalb bestimmter Zoomstufen. Stellen Sie sicher, dass das Minimum nicht gleich oder größer als das Maximum ist, sonst wird die Notiz nie angezeigt. (Standardbereich ist 0.1 - 3)",
+      "minZoomLevel": {
+        "name": "Minimale Zoomstufe",
+        "desc": "Der Pin wird ausgeblendet, wenn der Zoom unter dieser Stufe liegt."
+      },
+      "maxZoomLevel": {
+        "name": "Maximale Zoomstufe",
+        "desc": "Der Pin wird ausgeblendet, wenn der Zoom über dieser Stufe liegt."
+      },
+      "alwaysShowName": {
+        "name": "Pin-Beschriftung immer anzeigen",
+        "desc": "Zeigt immer die Beschriftung dieses Pins an, wenn der Pin sichtbar ist."
+      }
+    }
+  }
+}
