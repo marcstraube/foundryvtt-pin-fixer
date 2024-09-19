@@ -7,7 +7,7 @@ class PinFixer {
 	/** @type {Number} */ 
 	static get minCanvScale() { return 0.1; }
 	/** @type {Number} */
-	static get maxCanvScale() { return CONFIG.Canvas.maxZoom; }
+	static get maxCanvScale() { return 3; }
 
 	/** @type {Number} */
 	static get mapScale() { return canvas.stage.scale.x; }
